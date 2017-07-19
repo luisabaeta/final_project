@@ -16,8 +16,8 @@ header {
 /*	background-color: #f1c40f;
 */	padding: 20px;
 	margin-bottom: 40px;
-	background-color: black;
-	color: white;
+	background-color: white;
+	color: black;
 	width: 100%;
 	position: fixed;
 }
@@ -36,6 +36,7 @@ nav {
 	text-align: right;
 	line-height: 1rem;
 	padding: 20px;
+	margin-right: 20px;
 }
 
 nav a {
@@ -80,6 +81,8 @@ float: left;
 
 .gallery img {
 width: 90%;
+max-height: 600px;
+
 /*max-width: 700px;
 */}
 
@@ -89,11 +92,29 @@ float: left;
 padding-left: 10px;
 }
 
+.close {
+	color: black;
+	position: relative;
+	float: left;
+	font-size: 30px;
+	width: 50px;
+	height: 50px;
+	padding: 25px;
+}
+.fa, .fa-times {
+	color: black;
+	float: right;
+	font-size: 30px;
+	width: 50px;
+	height: 50px;
+	z-index: 2;
+}
+
 h2 {
 font-size: 2.5rem;
 font-family: "franklin-gothic-urw", sans-serif;
 font-weight: 700;
-line-height: 1rem;
+line-height: 1em;
 border-top: solid black 0.2em;
 padding-top: 0.8em;
 }
@@ -130,3 +151,73 @@ line-height: 1.5em;
 	width: 30%;
 	padding: 10px;
 }
+
+p a {
+	color: inherit;
+	text-decoration: none;
+	border-bottom: solid 0.2em #f1c40f;
+}
+
+li a {
+	color: inherit;
+	text-decoration: none;
+	border-bottom: solid 0.2em #f1c40f;
+}
+
+/**********
+MORE
+**********/
+.more {
+	float: left;
+	width: 25%;
+	margin-top: 70px;
+	padding: 40px;
+}
+
+ul {
+	padding-left: 0;
+	list-style-type: square;
+}
+
+li {
+	padding-top: 10px;
+}
+
+
+/**********
+CONTACT
+**********/
+
+#contact {
+max-width: 500px;
+padding-top: 200px;
+padding-left: 200px;
+margin: 0;
+}
+
+#contact p {
+font-family: Arek, serif;
+font-size: 30px;
+color: black;
+}
+
+/************
+ABOUT
+************/
+
+#portrait {
+	max-width: 400px;
+	padding: 60px;
+	float: left;
+}
+
+#about {
+width: 30%;
+float: left;
+padding-top: 70px;
+padding-left: 20px;
+}
+
+
+
+
