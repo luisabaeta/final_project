@@ -25,7 +25,7 @@ HEADER
 	<h1>Luisa Baeta</h1>
 
 	<nav>
-	<a href="#" class="selected">Design</a> | <a href="#">More</a> | <a href="#">About</a> | <a href="#">Contact</a>
+	<a href="design.html" class="selected">Design</a> | <a href="more.html">More</a> | <a href="about.html">About</a> | <a href="contact.html">Contact</a>
 	</nav>
 </header>
 
@@ -40,10 +40,41 @@ project close-up
 <div id="main">
 
 	<div class="gallery-wrapper artstring hidden">
+
 		<div class="gallery">
-		<img src="images/artstring/artstring_icons_01_behance4.png" alt="Artstring image 01">
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	  		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+			<div class="slides">
+				<img src="images/artstring/artstring_logo_01_behance.gif" alt="Artstring image">
+			</div>
+			<div class="slides hidden">
+				<img src="images/artstring/artstring_icons_01_behance.gif" alt="Artstring image">
+			</div>
+			<div class="slides hidden">
+				<img src="images/artstring/artstring_icons_01_behance.png" alt="Artstring image">
+			</div>
+			<div class="slides hidden">
+				<img src="images/artstring/artstring_icons_01_behance2.png" alt="Artstring image">
+			</div>
+			<div class="slides hidden">
+				<img src="images/artstring/artstring_icons_01_behance3.png" alt="Artstring image">
+			</div>
+			<div class="slides hidden">
+				<img src="images/artstring/artstring_icons_01_behance4.png" alt="Artstring image">
+			</div>
+			<div class="slides hidden">
+				<img src="images/artstring/artstring_icons_01_behance5.png" alt="Artstring image">
+			</div>
 		</div>
 
+
+  		<!-- <div style="text-align:center">
+		  <span class="dot" onclick="currentSlide(1)"></span> 
+		  <span class="dot" onclick="currentSlide(2)"></span> 
+		  <span class="dot" onclick="currentSlide(3)"></span> 
+		</div> -->
+			
 		<div class="gallery-info">
 		<h2>Artstring</h2>
 		<h3>Year: 2016</h3>
@@ -57,9 +88,22 @@ project close-up
 		<div class="close"><span class="fa fa-times"></span></div>
 	</div>
 
-		<div class="gallery-wrapper a-to-z hidden">
+
+	<div class="gallery-wrapper a-to-z hidden">
+
 		<div class="gallery">
-		<img src="images/eu_e_voce/eu_e_voce_01.png" alt="A to Z image 01" class="slide">
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	  		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+	  		<div class="slides">
+				<img src="images/eu_e_voce/eu_e_voce_01.png" alt="A to Z image">
+			</div>
+			<div class="slides hidden">
+				<img src="images/eu_e_voce/eu_e_voce_02.png" alt="A to Z image">
+			</div>
+			<div class="slides hidden">
+				<img src="images/eu_e_voce/eu_e_voce_03.png" alt="A to Z image">
+			</div>
 		</div>
 
 		<div class="gallery-info">
@@ -89,7 +133,7 @@ project close-up
 	<img src="images/thumbnail_letterpress_sp.jpg" alt="Letterpress thumbnail" class="thumbnail">
 
 	</div>
-</div>>
+</div>
 
 <!-- *************************
 FOOTER
